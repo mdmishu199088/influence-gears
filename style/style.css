@@ -1,0 +1,122 @@
+/* front style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+  }
+  .inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  /* front style */
+  /* talent apply */
+  :root{
+    --E02C6D-color:#E02C6D;
+    --ffffff-color: #ffffff;
+    --F1E4FF-color:#F1E4FF;
+  }
+  /* talent apply */
+  /* share name */
+  .display-flex{
+    display: flex;
+  }
+  .color-code{
+    color: #3A3A3A;
+  }
+  /* share name */
+  /* header style*/
+  header{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .products-container{
+    justify-content:space-between;
+  }
+  .product{
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  .bar-name{
+    font-weight: 600px;
+  }
+  .bar{
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .icon-size{
+    justify-content: center;
+    align-items: center;
+  }
+  .bar-image1{
+    max-width: 36px;
+    max-height: 20px;
+    margin-top: 25px;
+  }
+  .bar-image2{
+    max-width: 34px;
+    max-height: 30px;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  /* start journey part */
+  .start-journey{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 133px;
+    margin-top: 50px;
+  }
+  .journey{
+    max-width: 582px;
+    margin-top: 100px;
+  }
+  .journey-title{
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+  }
+  .journey-description{
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  .journey-button{
+    font-weight: 700;
+    background-color:var(--E02C6D-color) ;
+    border: none;
+    padding: 10px 56px 10px 24px;
+    border-radius: 41px;
+    color: var(--ffffff-color);
+  }
+  .journey-image{
+    width: 440px;
+    height: 440px;
+    background-color: var(--F1E4FF-color);
+    border-radius: 50%;
+    margin-left: 100px;
+  }
+  .x{
+    width: 430px;
+    height: 430px;
+    margin-top: 5px;
+    background-color: var(--ffffff-color);
+    margin-left: 5px;
+    border-radius: 50%;
+  }
+  .y{
+    width: 330px;
+    height: 330px;
+    background-color: var(--F1E4FF-color);
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    top: 50px;
+  }
+  .camera{
+    width: 400px;
+    height: 400px;
+    margin-top: -70px;
+    margin-left: -20px;
+  }
